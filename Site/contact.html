@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>University Website Design</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Radley:ital@0;1&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<body>
+    <section class = "sub-header">
+        <nav>
+            <a href="index.html"><img src="image/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-xmark" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showmenu()"></i>
+        </nav>
+         <h1>Contact Us</h1>
+    </section>
+
+        <!------contact us content-->
+
+        <section class="location">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3774.392076298823!2d47.551811699999995!3d-18.914031999999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x21f07d88e75a7eb7%3A0xbcf08a3c2b44c43c!2sUniversit%C3%A9%20d'Antananarivo!5e0!3m2!1sfr!2smg!4v1794069875006!5m2!1sfr!2smg" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+
+
+        </section>
+
+        <section>
+            <div class="row">
+                <div class="contact-us">
+                    <div class="contact-col">
+                        <i class="fa fa-home"></i>
+                        <span>
+                            <h5>
+                                Antananarivo
+                            </h5>
+                            <p>
+                                Université d'Antananarivo, Antananarivo 101, Madagascar
+                            </p>
+                        </span>
+                    </div>
+                    <div class="contact-col">
+                        <i class="fa fa-phone"></i>
+                        <span>
+                            <h5>
+                                038 20 889 95
+                            </h5>
+                            <p>
+                                Monday to Saturday,10pm to 6pm
+                            </p>
+                        </span>
+                    </div>
+                    <div class="contact-col">
+                        <i class=" fa fa-solid fa-envelope"></i>
+                        <span>
+                            <h5>
+                                jeanniainaolivier@gmail.com
+                            </h5>
+                            <p>
+                                Email us your query
+                            </p>
+                        </span>
+                    </div>
+            
+                </div>
+                <div class="contact-col">
+                        <form action="form-handler.php">
+                            <input type="text" placeholder="Enter your name" required>
+                            <input type="email" placeholder="Enter your email" required>
+                            <input type="text" placeholder="Enter your subject" required>
+                            <textarea rows="8" placeholder="Enter your message" required></textarea>
+                            <button type="submit" class="hero-btn">Send Message</button>
+                        </form>
+                    </div>
+
+            </div>
+
+        </section>
+        
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!---course--->
+
+    <section class="footer"> 
+       <h4>
+        About Us
+       </h4> 
+       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti consequatur sed amet nemo voluptatum asperior
+        es rem alias facere ea  <br>eius quidem quos rerum exercitationem, libero voluptatibus ipsa qui facilis consectetur.</p>
+       <div class="social-icons">
+        <i class="fa-brands fa-facebook-f"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-linkedin-in"></i>
+      </div>
+      <p>Made by LHIO</p>
+    </section>
+
+
+    
+
+    <!---javascript for toggle menu--->
+    <script>
+        var navLinks = docum
+        ent.getElementById("navLinks");
+        function showmenu(){
+            navLinks.style.right = "0";
+        }
+        function hidemenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+
+</body>
+</html>
